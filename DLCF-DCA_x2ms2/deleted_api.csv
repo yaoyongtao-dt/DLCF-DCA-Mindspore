@@ -1,0 +1,12 @@
+File,Start Line,End Line,Api,Type,Tips
+pyabsa\core\apc\prediction\sentiment_classifier.py,121,121,torch.backends.cudnn.deterministic,DELETED,"""torch.backends.cudnn.deterministic"" has no corresponding api in MindSpore, will be deleted by x2mindspore."
+pyabsa\core\apc\prediction\sentiment_classifier.py,122,122,torch.backends.cudnn.benchmark,DELETED,"""torch.backends.cudnn.benchmark"" has no corresponding api in MindSpore, will be deleted by x2mindspore."
+pyabsa\core\apc\prediction\sentiment_classifier.py,194,194,torch.no_grad,DELETED,"""torch.no_grad"" has no corresponding api in MindSpore, will be deleted by x2mindspore."
+pyabsa\core\apc\training\apc_trainer.py,449,449,torch.no_grad,DELETED,"""torch.no_grad"" has no corresponding api in MindSpore, will be deleted by x2mindspore."
+pyabsa\core\atepc\prediction\aspect_extractor.py,265,265,torch.no_grad,DELETED,"""torch.no_grad"" has no corresponding api in MindSpore, will be deleted by x2mindspore."
+pyabsa\core\atepc\prediction\aspect_extractor.py,360,360,torch.no_grad,DELETED,"""torch.no_grad"" has no corresponding api in MindSpore, will be deleted by x2mindspore."
+pyabsa\core\atepc\training\atepc_trainer.py,286,286,torch.no_grad,DELETED,"""torch.no_grad"" has no corresponding api in MindSpore, will be deleted by x2mindspore."
+pyabsa\core\tc\prediction\text_classifier.py,117,117,torch.backends.cudnn.deterministic,DELETED,"""torch.backends.cudnn.deterministic"" has no corresponding api in MindSpore, will be deleted by x2mindspore."
+pyabsa\core\tc\prediction\text_classifier.py,118,118,torch.backends.cudnn.benchmark,DELETED,"""torch.backends.cudnn.benchmark"" has no corresponding api in MindSpore, will be deleted by x2mindspore."
+pyabsa\core\tc\prediction\text_classifier.py,204,204,torch.no_grad,DELETED,"""torch.no_grad"" has no corresponding api in MindSpore, will be deleted by x2mindspore."
+pyabsa\core\tc\training\classifier_trainer.py,401,401,torch.no_grad,DELETED,"""torch.no_grad"" has no corresponding api in MindSpore, will be deleted by x2mindspore."

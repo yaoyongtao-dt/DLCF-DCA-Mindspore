@@ -1,0 +1,49 @@
+2023-06-07 23:49:24,767 INFO: >>> model: <class 'pyabsa.core.apc.models.dlcf_dca_bert.DLCF_DCA_BERT'>  --> Active
+2023-06-07 23:49:24,767 INFO: >>> pretrained_bert: bert-base-uncased  --> Active
+2023-06-07 23:49:24,767 INFO: >>> max_seq_len: 80  --> Active
+2023-06-07 23:49:24,768 INFO: >>> SRD: 3  --> Active
+2023-06-07 23:49:24,768 INFO: >>> dlcf_a: 2  --> Active
+2023-06-07 23:49:24,768 INFO: >>> dca_layer: 3  --> Active
+2023-06-07 23:49:24,768 INFO: >>> use_syntax_based_SRD: False  --> Active
+2023-06-07 23:49:24,768 INFO: >>> lcf: cdm  --> Active
+2023-06-07 23:49:24,768 INFO: >>> dropout: 0.5  --> Active
+2023-06-07 23:49:24,768 INFO: >>> batch_size: 16  --> Active
+2023-06-07 23:49:24,768 INFO: >>> seed: 0  --> Active
+2023-06-07 23:49:24,768 INFO: >>> embed_dim: 768  --> Active
+2023-06-07 23:49:24,768 INFO: >>> polarities_dim: 3  --> Active
+2023-06-07 23:49:24,768 INFO: >>> dynamic_truncate: True  --> Active
+2023-06-07 23:49:24,768 INFO: >>> srd_alignment: True  --> Active
+2023-06-07 23:49:24,768 INFO: >>> dataset_file: {'train': ['integrated_datasets/apc_datasets/SemEval/restaurant14/Restaurants_Train.xml.seg'], 'test': ['integrated_datasets/apc_datasets/SemEval/restaurant14/Restaurants_Test_Gold.xml.seg']}  --> Active
+2023-06-07 23:49:24,768 INFO: >>> device: GPU:0  --> Active
+2023-06-07 23:49:24,768 INFO: >>> model_name: dlcf_dca_bert  --> Active
+2023-06-07 23:49:24,768 INFO: >>> spacy_model: en_core_web_sm  --> Active
+2023-06-07 23:49:24,768 INFO: >>> bert_dim: 768  --> Active
+2023-06-07 23:49:24,768 INFO: >>> optimizer: adam  --> Default
+2023-06-07 23:49:24,768 INFO: >>> learning_rate: 2e-05  --> Default
+2023-06-07 23:49:24,768 INFO: >>> use_bert_spc: True  --> Default
+2023-06-07 23:49:24,768 INFO: >>> dca_p: 1  --> Default
+2023-06-07 23:49:24,768 INFO: >>> sigma: 0.3  --> Default
+2023-06-07 23:49:24,768 INFO: >>> window: lr  --> Default
+2023-06-07 23:49:24,769 INFO: >>> eta: -1  --> Default
+2023-06-07 23:49:24,769 INFO: >>> l2reg: 1e-05  --> Default
+2023-06-07 23:49:24,769 INFO: >>> num_epoch: 10  --> Default
+2023-06-07 23:49:24,769 INFO: >>> initializer: xavier_uniform_  --> Default
+2023-06-07 23:49:24,769 INFO: >>> hidden_dim: 768  --> Default
+2023-06-07 23:49:24,769 INFO: >>> log_step: 5  --> Default
+2023-06-07 23:49:24,769 INFO: >>> evaluate_begin: 0  --> Default
+2023-06-07 23:49:24,769 INFO: >>> similarity_threshold: 1  --> Default
+2023-06-07 23:49:24,769 INFO: >>> cross_validate_fold: -1  --> Default
+2023-06-07 23:49:24,769 INFO: >>> dataset_item: ['Restaurant14']  --> Default
+2023-06-07 23:49:24,769 INFO: >>> dataset_name: Restaurant14  --> Default
+2023-06-07 23:49:24,769 INFO: >>> device_name: NVIDIA GeForce RTX 3090  --> Default
+2023-06-07 23:49:24,769 INFO: >>> Version: 1.1.24  --> Default
+2023-06-07 23:49:24,769 INFO: >>> save_mode: 1  --> Default
+2023-06-07 23:49:24,769 INFO: >>> model_path_to_save: /usr/data/zgb/DLCF-DCA_x2ms/checkpoints  --> Default
+2023-06-07 23:49:24,769 INFO: >>> inputs_cols: ['text_bert_indices', 'text_raw_bert_indices', 'dlcf_vec', 'depend_vec', 'depended_vec']  --> Default
+2023-06-07 23:49:24,769 INFO: >>> origin_label_map: {0: 0, 1: 1, 2: 2}  --> Default
+2023-06-07 23:49:24,994 INFO: ***** Running training for Aspect Polarity Classification *****
+2023-06-07 23:49:24,994 INFO: Training set examples = 3608
+2023-06-07 23:49:24,994 INFO: Test set examples = 1120
+2023-06-07 23:49:24,994 INFO: Total params = 14770950, Trainable params = 14770950, Non-trainable params = 0
+2023-06-07 23:49:24,994 INFO: Batch size = 16
+2023-06-07 23:49:24,995 INFO: Num steps = 140
