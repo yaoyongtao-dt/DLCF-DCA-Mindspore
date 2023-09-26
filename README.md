@@ -11,6 +11,7 @@
 * numpy
 * sklearn
 * python 3.8
+* mindnlp
 * transformers
 * mindformers
 
