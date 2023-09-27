@@ -34,10 +34,7 @@ There are two ways we implement DLCF-DCA, bert based on mindnlp and bert based o
 
 ### BERT for Sentence Pair Classification ([bert_spc.py](./models/bert_spc.py))
 
-Devlin, Jacob, et al. "Bert: Pre-training of deep bidirectional transformers for language understanding." arXiv preprint arXiv:1810.04805 (2018). [[pdf]](https://arxiv.org/pdf/1810.04805.pdf)
-
-
-Hochreiter, Sepp, and Jürgen Schmidhuber. "Long short-term memory." Neural computation 9.8 (1997): 1735-1780. [[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.676.4320&rep=rep1&type=pdf)]
+BERT paper
 
 
 
